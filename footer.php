@@ -10,7 +10,8 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<?php if ( ox_get_option( 'footerinfo_first' ) ) { echo ox_get_option( 'footerinfo_first' ); } ?>
-			<p>版权所有 &copy; (2018 - <?php echo date( "Y" ); ?>)  <a href="https://yinji.org">印记</a><br><a href="https://beian.miit.gov.cn/">京ICP备 2023005104 号 </a>│<a href="https://beian.mps.gov.cn/#/query/webSearch">京公网安备 11010602104839 号 </a><br>程序：WordPress│主题：<a href="https://github.com/huhexian/2012-huhexian">Twenty Twelve</a>│本站禁止任何形式的文章转载<br><?php echo allwords(); ?>
+			<p>版权所有 &copy; (2023 - <?php echo date( "Y" ); ?>)  <a href="https://www.shuothink.com/">翟硕的笔记</a><br>程序：WordPress│主题：<a href="https://github.com/huhexian/2012-huhexian">Twenty Twelve</a><br><?php echo allwords(); ?>
+<br><br><a href="https://beian.miit.gov.cn/">京ICP备 2023005104 号 </a>│<a href="https://beian.mps.gov.cn/#/query/webSearch">京公网安备 11010602104839 号 </a>
 </p>
 		</div><!-- .site-info -->
 		<?php if ( ox_get_option( 'footerinfo' ) ) : ?>
