@@ -99,7 +99,7 @@ if ( post_password_required() ) {
 								if ( ox_get_option( 'commentform_ad_info' ) ) {
 									echo ox_get_option( 'commentform_ad_info' );
 								} else {
-									echo '这里是广告，可以在comments.php文件中修改';
+									echo '';
 								}
 							?>
 						</div>
